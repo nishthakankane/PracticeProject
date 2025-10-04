@@ -1,0 +1,109 @@
+h1{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgb(1, 1, 41);
+}
+body{
+    background-color: beige;
+}
+.game{
+    height: 200px;
+    width: 800px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: beige;
+    flex-direction: row;
+    gap : 5px;
+    position: absolute;
+    left: 350px;
+
+     
+}
+
+
+#rock{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url(default.jpeg);
+   background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+    
+#paper{
+height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(23, 199, 218);
+    background-image: url(paper.jpeg);
+    background-size: contain;
+  
+    
+}
+#scissor{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(218, 23, 186);
+    background-image: url(scissor.png);
+    background-size: contain;
+}
+#rock:hover{
+    opacity: 0.5;
+}
+#paper:hover{
+    opacity: 0.5;
+}
+#scissor:hover{
+    opacity: 0.5;
+}
+   
+.scoreboard{
+    height: 300px;
+    width :300px;
+    background-color:beige;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+
+}
+.msgcontainer{
+    font-size: 40px;
+    height: 20px;
+    width:800px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    position: absolute;
+    top: 58%;
+    left:25%;
+    text-transform: capitalize;
+}
+#user{
+    font-size: 45px;
+    border: 2px solid black;
+    text-align: center;
+}
+#computer{
+    font-size: 45px;
+    border: 2px solid black;
+    text-align: center;
+}
